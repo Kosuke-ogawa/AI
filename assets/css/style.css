@@ -1,0 +1,282 @@
+@charset "uft-8";
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #ffebcd;
+
+}
+
+.ROGO {
+    margin: 20px 0 20px 20px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list > .header-item {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    padding: 0px 12px;
+}
+
+
+.nav-list li {
+    border-color: #777;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a {
+    transition: 0.6s;
+}
+
+.nav-list a:hover {
+    color: #777;
+}
+
+
+
+
+
+/* hiro */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero > strong {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.hero > video {
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: 105%;
+}
+
+.section1 {
+    margin: 50px 0 0 60px;
+    line-height: 1.6;
+    border: 2px solid #1a1a1a
+}
+
+.section1-headline {
+    font-size: 40px;
+    text-indent: 50px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.section1-ol {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+a:hover {
+    color: #808080;
+    text-decoration: underline;
+}
+
+
+/* 本文 */
+.history-section {
+    padding: 40px 0px;
+    margin: 0px 50px 0px 50px;
+}
+
+.modan-section {
+    padding: 40px 0px;
+    margin: 0px 50px 0px 50px;
+}
+
+.future-section {
+    padding: 40px 0px;
+    margin: 0px 50px 0px 50px;
+}
+
+.game-section {
+    padding: 40px 0px;
+    margin: 0px 50px 0px 50px;
+}
+
+.main-headline {
+    color: white;
+    font-size: 50px;
+    margin: 0px 0px 20px ;
+    font-weight: bold;
+    width: 100%;
+    background-color: orange;
+    padding: 0px 40px;
+}
+
+.main-headline {
+    position: relative;
+}
+
+.main-headline::before, .main-headline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: orange; 
+}
+
+.main-headline::before {
+    top: -7px; 
+}
+
+.main-headline::after {
+    bottom: -7px; 
+}
+
+.main-discription {
+    color:#2b2b2b;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 2.0;
+    text-indent: 1.5em;
+}
+
+.main-headline3 {
+    position: relative;
+    text-decoration: none;
+}
+
+.main-headline3 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.main-headline3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: gray;
+}
+
+.main-headline4 {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 20px 0 0 0;
+}
+
+.main-div-image {
+    display: flex;
+}
+
+.image {
+    align-self: flex-end;
+    margin-left: 30px;
+}
+
+
+
+.game-section {
+    margin: 40px;  
+    padding: 20px 20px;
+}
+
+.game-headline {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+button {
+    width: 45%;
+    height: 120px;
+    margin: 20px;
+    border-radius: 30px;
+    border: solid 5px #1a1a1a;
+    background-color: aqua;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.game-div {
+    border: solid 3px #333;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+#q { 
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#result {
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.game-headline3 {
+    font-size: 28px;
+}
+
+.game-ul > li {
+    font-size: 20px;
+}
+
+.game-ul {
+    line-height: 1.5;
+}
+
+.game-list-div {
+    line-height: 2.0;
+}
